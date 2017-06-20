@@ -1,0 +1,78 @@
+body {
+  font-family: Arial;
+}
+header, footer {
+  padding: 1em;
+  color: white;
+  background-color: #0e504d;
+  clear: left;
+  text-align: center;
+}
+div.container {
+  width: 100%;
+}
+nav {
+  margin: 0;
+  padding: 0;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  background-color: #20b2aa;
+  padding: 0;
+  overflow: hidden;
+}
+nav li {
+  float: left;
+}
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 16px;
+  text-decoration: none;
+}
+nav li a:hover {
+  background-color: #1da19a;
+}
+@media screen and (min-width:480px) {
+  section {
+    width: 100%;
+  }
+  aside {
+    float: left;
+    width: 100%;
+  }
+}
+@media screen and (min-width:600px) {
+  section {
+    width: 100%;
+  }
+  aside {
+    float: left;
+    width: 100%;
+    margin: 15px;
+  }
+}
+@media screen and (min-width:801px) {
+  section {
+    float: left;
+    width: 70%;
+  }
+  aside {
+    float: right;
+    width: 30%;
+    margin: 25px 0px 0px 0px;
+  }
+}
+@media (min-width:1025px) {
+  section {
+    float: left;
+    width: 70%;
+  }
+  aside {
+    float: right;
+    width: 30%;
+    margin: 40px 0px 0px 0px;
+  }
+}
